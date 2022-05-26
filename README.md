@@ -36,3 +36,8 @@ Esse comando irá instalar todos pacotes que constam como dependência no arquiv
 ```sh
 npm install
 ```
+
+Esse comando inicia um novo projeto Node:
+```sh
+npm init
+```
