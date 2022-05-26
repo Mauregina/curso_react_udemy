@@ -32,12 +32,13 @@ sudo apt install nodejs
 sudo apt install npm
 ```
 
-Esse comando irá instalar todos pacotes que constam como dependência no arquivo package.json (Express, Postman):
+Esse comando inicia uma nova aplicação em React:
 ```sh
-npm install
+npm cache clean --force
+npx create-react-app <nome-projeto>
 ```
 
-Esse comando inicia um novo projeto Node:
+Esse comando inicia a aplicação (obs: usar esse comando na pasta do projeto criado no comando acima). Este comando inicia um projeto de forma local e nos fornece um IP.
 ```sh
-npm init
+npm start
 ```
