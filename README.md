@@ -1,5 +1,5 @@
 # CURSO REACT
-Material gerado durante curso da blibioteca React, utilizando tecnologias em alta no mercado como Firebase, Node.js, MongoDB e mais!
+Material gerado durante curso da biblioteca React, utilizando tecnologias em alta no mercado como Firebase, Node.js, MongoDB e mais!
 
 ## Tópicos do curso:
 
@@ -12,7 +12,14 @@ Material gerado durante curso da blibioteca React, utilizando tecnologias em alt
 - React Router;
 - Context API;
 - Hooks do React (useState, useEffect, useRef e todos os outros hooks);
-- Redux.
+- Redux;
+- Node.js (Express, para APIs);
+- MongoDB com Mongoose (banco de dados NoSQL);
+- Firebase (solução completa do Google, com API, Database e Autenticação);
+- JavaScript ES6+;
+- Criação de APIs;
+- JavaScript Moderno;
+- TypeScript com React.
 
 ## Ferramentas utilizadas
 
