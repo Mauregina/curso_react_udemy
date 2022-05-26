@@ -43,4 +43,5 @@ Esse comando inicia a aplicação (obs: usar esse comando na pasta do projeto cr
 npm start
 ```
 
-Instalar a extensão para React no VS Code: ES7+ React/Redux/React-Native snippets
+Instalar a extensão para React no VS Code: ES7+ React/Redux/React-Native snippets.
+Configurar Emmet para o React.
