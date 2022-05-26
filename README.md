@@ -44,4 +44,5 @@ npm start
 ```
 
 Instalar a extensão para React no VS Code: ES7+ React/Redux/React-Native snippets.
+
 Configurar Emmet para o React.
