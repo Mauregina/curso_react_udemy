@@ -1,0 +1,14 @@
+{
+  "products": [
+    {
+      "name": "Saia",
+      "price": "15",
+      "id": 7
+    },
+    {
+      "name": "Tênis",
+      "price": "49",
+      "id": 8
+    }
+  ]
+}
