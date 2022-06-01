@@ -43,6 +43,19 @@ Esse comando inicia a aplicação (obs: usar esse comando na pasta do projeto cr
 npm start
 ```
 
+```
+npm install json-server
+```
+
+Adicionar a linha <"server": "json-server --watch data/db.json"> ao package.json e executar o comando:
+```
+npm run server
+```
+
+```
+npm install react-router-dom
+```
+
 Instalar a extensão para React no VS Code: ES7+ React/Redux/React-Native snippets.
 
-Configurar Emmet para o React.
+Configurar <b>Emmet</b> para o React.
