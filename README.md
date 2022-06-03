@@ -38,22 +38,23 @@ npm cache clean --force
 npx create-react-app <nome-projeto>
 ```
 
-Esse comando inicia a aplicação (obs: usar esse comando na pasta do projeto criado no comando acima). Este comando inicia um projeto de forma local e nos fornece um IP.
+Esse comando inicia a aplicação (obs: usar esse comando na pasta do projeto criado no comando acima). Este comando inicia um projeto de forma local e nos fornece um IP:
 ```sh
 npm start
 ```
 
+Pacote para criação de estrutura de rotas (Link, BrowserRouter, Routes, Route) permitindo que as SPAs tenham múltiplas páginas:
+```
+npm install react-router-dom
+```
+
+Pacote que simula API e possibilita fazer requisições HTTP:
 ```
 npm install json-server
 ```
-
 Adicionar a linha <"server": "json-server --watch data/db.json"> ao package.json e executar o comando:
 ```
 npm run server
-```
-
-```
-npm install react-router-dom
 ```
 
 Instalar a extensão para React no VS Code: ES7+ React/Redux/React-Native snippets.

@@ -73,10 +73,12 @@ function App() {
           <h2>Este é o conteúdo contido no 'children'...</h2>
         </Container>
         <ExecuteFunction myFunction={ExibirMsg}/>
+        
+        {/* STATE LIFT */}
         <Message msg={message}/>
+        <ChangeMessageState handleMessage={handleMessage}/>
 
         <div><h1>Desafio 4</h1></div>
-        <ChangeMessageState handleMessage={handleMessage}/>
         {
           pessoas.map((item) => (
             <UserDetails
