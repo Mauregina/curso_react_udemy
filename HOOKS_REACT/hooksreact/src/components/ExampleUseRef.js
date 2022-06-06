@@ -13,7 +13,7 @@ const ExampleUseRef = () => {
 
   return (
     <div>
-        <h2>ExampleUseRef</h2>
+        <h2>Example UseRef</h2>
         <p>Counter REF: {counterRef.current}</p>
         <p>Counter1: {counter1}</p>
         <button onClick={ () => setCounter1(counter1 + 1) }>Somar</button>

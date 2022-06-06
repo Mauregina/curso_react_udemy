@@ -1,0 +1,18 @@
+import { useState } from 'react';
+import { usePrevious } from '../hooks/usePrevious';
+
+const ExampleCustomHook = () => {
+  const [number, setNumber] = useState(0);
+  const previousValue = usePrevious(number);
+
+  return (
+    <div>
+        <h2>Example CustomHook</h2>
+        <p>Atual: {number} </p>
+        <p>Anterior: {previousValue}</p>
+        <button onClick={() => setNumber(Math.random())}>Alterar</button>
+    </div>
+  )
+}
+
+export default ExampleCustomHook

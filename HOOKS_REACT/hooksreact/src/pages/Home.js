@@ -1,6 +1,8 @@
 import ExampleUseReducer from "../components/ExampleUseReducer";
 import ExampleUseState from "../components/ExampleUseState";
 import ExampleUseEffect from "../components/ExampleUseEffect";
+import ExampleUseImperativeHandle from '../components/ExampleUseImperativeHandle';
+import ExampleCustomHook from '../components/ExampleCustomHook';
 
 import { useContext } from "react";
 import { SomeContext } from "../components/ExampleUseContext";
@@ -20,6 +22,10 @@ const Home = () => {
         <ExampleUseEffect/>
         <hr />
         <p>Valor do contexto: {contextValue}</p>
+        <hr />
+        <ExampleUseImperativeHandle />
+        <hr />
+        <ExampleCustomHook />
     </div>
   )
 }
