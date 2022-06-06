@@ -37,6 +37,8 @@ Esse comando inicia uma nova aplicação em React:
 npm cache clean --force
 npx create-react-app <nome-projeto>
 ```
+Esse comando inicia uma nova aplicação em React com TypeScript:
+npx create-react-app <nome-projeto> --template typescript
 
 Esse comando inicia a aplicação (obs: usar esse comando na pasta do projeto criado no comando acima). Este comando inicia um projeto de forma local e nos fornece um IP:
 ```sh
@@ -57,6 +59,8 @@ Adicionar a linha <"server": "json-server --watch data/db.json"> ao package.json
 npm run server
 ```
 
-Instalar a extensão para React no VS Code: ES7+ React/Redux/React-Native snippets.
+Instalar a extensão para React no VS Code: 
+- ES7+ React/Redux/React-Native snippets.
+- vscode-react-typescript
 
 Configurar <b>Emmet</b> para o React.
